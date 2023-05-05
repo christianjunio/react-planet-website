@@ -10,7 +10,7 @@
 body {
   color: #fff;
   font-family: 'Roboto', sans-serif;
-  font-size: 0.9rem;
+  font-size: 1rem;
 }
 
 header {
@@ -58,7 +58,8 @@ header {
   font-weight: 900;
   font-size: 72px;
   letter-spacing: -0.75px;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
+  line-height: 1.1;
 }
 
 .container img {

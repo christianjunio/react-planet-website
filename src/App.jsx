@@ -9,8 +9,8 @@ function App() {
       <Navbar />
       <section className="container">
         <div className="title-section">
-          <h1 className="title">Titulo Teste</h1>
-          <Button text="Contact-me" />
+          <h1 className="title">React Planet Website</h1>
+          <Button text="See Planets" />
         </div>
         <img src={planet} alt="" />
       </section>
