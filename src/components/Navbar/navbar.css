@@ -1,0 +1,29 @@
+header {
+    position: fixed;
+    width: 100%;
+  }
+  
+  .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10%;
+    background-color: #070707;
+    height: 60px;
+    border-bottom: #383838 solid 1px;
+  }
+  
+  .navbar h1 {
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+  }
+  
+  .nav-list {
+    display: flex;
+    gap: 30px;
+  }
+  
+  .nav-list li a {
+    color: #fff;
+    text-decoration: none;
+  }

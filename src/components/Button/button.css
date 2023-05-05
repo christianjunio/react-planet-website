@@ -1,0 +1,23 @@
+.button {
+    height: 50px;
+    width: 170px;
+    border-radius: 10px;
+    font-size: 1rem;
+    background-color: #000000;
+    transition: 200ms;
+    cursor: pointer;
+    color: #fff;
+  }
+  
+  .button-border {
+    width: 170px;
+    padding: 1rem;
+    border-radius: 12px;
+    background: linear-gradient(to bottom right, #ff0099, #0088c3);
+    padding: 2px;
+  }
+  
+  .button:hover {
+    background-color: #ffffff00;
+    transition: 200ms;
+  }
