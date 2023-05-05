@@ -1,6 +1,8 @@
-import Navbar from "../components/Navbar"
-import Button from "../components/Button"
-import planet from "../assets/planet.png"
+import Navbar from "../../components/Navbar/Navbar"
+import Button from "../../components/Button/Button"
+import planet from "../../assets/planet.png"
+import { Link } from "react-router-dom"
+import './home.css'
 
 function Home() {
   return (
@@ -9,7 +11,7 @@ function Home() {
       <section className="container">
         <div className="title-section">
           <h1 className="title">React Planet Website</h1>
-          <Button text="See Planets" />
+          <Link to="/planets"><Button text="See Planets" /></Link>
         </div>
         <img src={planet} alt="" />
       </section>
