@@ -1,7 +1,7 @@
 import React from "react"
 import Navbar from "./components/Navbar"
 import Button from "./components/Button"
-import planet from "./images/planet.png"
+import planet from "./assets/planet.png"
 
 function App() {
   return (
