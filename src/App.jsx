@@ -1,20 +1,20 @@
-import React from "react"
-import Navbar from "./components/Navbar"
-import Button from "./components/Button"
-import planet from "./assets/planet.png"
+import { BrowserRouter as Router , Routes, Route } from 'react-router-dom'
+import Home from './pages/Home'
+import Planets from './pages/Planets'
+import About from './pages/About'
+import ContactUs from './pages/ContactUs'
 
 function App() {
   return (
-    <>
-      <Navbar />
-      <section className="container">
-        <div className="title-section">
-          <h1 className="title">React Planet Website</h1>
-          <Button text="See Planets" />
-        </div>
-        <img src={planet} alt="" />
-      </section>
-    </>
+    // Rotas
+      <Router>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/planets" element={<Planets />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/contact-us" element={<ContactUs />} />
+        </Routes>
+      </Router>
   )
 }
 
